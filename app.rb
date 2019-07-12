@@ -6,4 +6,6 @@ class App < Sinatra::Base
     @user_name = params[:name]
     "#{@user_name.reverse!}"
   end 
+  
+  get 
 end
